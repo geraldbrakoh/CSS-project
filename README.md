@@ -1,2 +1,5 @@
 # CSS-project
- This a projet built using HTML and CSS.
+ This a project built using HTML and CSS.
+ 
+ Link: https://geraldbrakoh.github.io/CSS-project/
+ 
