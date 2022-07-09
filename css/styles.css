@@ -1,0 +1,308 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 48px;
+    color: #f9faf8;
+}
+h3{
+    color: #f9faf8;
+    margin: 0;
+}
+p{
+    color: #e5e7eb;
+    line-height: 2;
+}
+#title-page {
+    background-color: #1f2937;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 13%;
+}
+.nav-item {
+    list-style: none;
+    margin-right: 50px;
+}
+.logo {
+    width: auto;
+    height: 40px;
+    padding: 2%;
+    margin-right: auto;
+}
+.nav-list {
+    margin: 0;
+    padding: 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-item a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+li a:hover {
+    color: #1150b5;
+}
+.main-image {
+    width: auto;
+    height: 500px;
+}
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+.left-content {
+    width: 30%;
+    margin-right: 50px;
+    margin: 0;
+}
+.left-about-content {
+    width: 50%;
+    margin-right: 50px;
+    margin: 0;
+}
+.left-content h1,p {
+    margin: 0;
+}
+.left-about-content img {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    width: 700px;
+    height: auto;
+    margin-left: 30px;
+}
+.right-content p {
+    width: 400px;
+}
+.right-content img {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    width: 700px;
+    height: auto;
+    margin-left: 30px;
+}
+.cta {
+    padding: 15px 30px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: #f9faf8;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.cta:hover {
+    background-color: #1150b5;
+    transform: scale(0.97);
+    cursor: pointer;
+}
+#players-involved {
+    margin: 0;
+    padding: 2%;
+}
+#players-involved h2 {
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+.stadium img {
+    margin-left: 30px;
+}
+.player-images {
+    width: 350px;
+    height: 200px;
+    border: 2px #3882f6 solid;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+}
+.player-images:hover {
+    transform: scale(1.1);
+}
+.player {
+    margin-right: 20px;
+}
+.key-players, .key-places {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.caption {
+    width: auto;
+    margin-top: 10px;
+    color: #a6a8ad;
+}
+#testimonials {
+    background-color: #e5e7eb;
+    padding: 7% 15%;
+}
+.testimonial {
+    width: auto;
+    text-align: center;
+}
+.testimonial h2 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 100;
+}
+.testimonial p{
+    text-align: right;
+    font-weight: 500;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+#call-to-action {
+    padding: 8% ;
+}
+.cta-info {
+    padding: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    margin: 0 150px 0 150px;
+    border-radius: 10px;
+}
+.texts p {
+    color: #e5e7eb;
+}
+.cta-btn-btn {
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    border: 1px solid white;
+    color: #f9faf8;
+    outline: none;
+    font-weight: 700;
+}
+.cta-btn-btn:hover {
+    background-color: #1150b5;
+    transform: scale(0.97);
+    cursor: pointer;
+}
+footer {
+    padding: 3% 10%;
+    background-color: #1f2937;
+    color: #e5e7eb;
+
+    text-align: center;
+}
+.social-icons {
+    margin: 20px 10px;
+    color: #e5e7eb;
+}
+.social-icons:hover {
+    color: grey;
+    cursor: pointer;
+}
+#signup-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    background-image: linear-gradient(301deg, #1f2937 0%, #2c2c4c 100%);
+}
+.sign-up {
+    width: 500px;
+    box-shadow: 0px 0px 5px black;
+    background-color: #fff;
+}
+.signup-top {
+    padding: 40px 40px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.signup-top h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 32px;
+    color: #1f2937;
+}
+.input-wrap {
+    display: flex;
+    margin-bottom: 32px;
+    align-items: center;
+}
+.input-wrap p {
+    font-size: 13px;
+    color: #77787d;
+}
+span {
+    color: #3882f6;
+    cursor: pointer;
+    font-weight: 500;
+}
+input {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #939394;
+    transition: 500ms ease all;
+}
+input:focus {
+    outline: none;
+    box-shadow: 0px 1px 0px black;
+    border-color: #1f2937;
+}
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+}
+input[type="checkbox"]:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: none;
+}
+.input-wrap button {
+    cursor: pointer;
+    padding: 15px 60px;
+    border-radius: 30px;
+    font-weight: 600;
+    border: none;
+    color: #fff;
+    background-color: #3882f6;
+    margin-right: 16px;
+    transition: 500ms ease all;
+}
+.input-wrap button:hover {
+    background-color: rgb(34, 34, 224);
+    transform: scale(0.97);
+}
+.signup-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 60px 40px 40px;
+    color: #fff;
+}
+.signup-bottom h3 {
+    font-weight: 500;
+    font-size: 13px;
+}
+.signup-bottom ul {
+    display: flex;
+    margin-top: 16px;
+    list-style: none;
+}
+.signup-bottom li {
+    font-size: 24px;
+    cursor: pointer;
+}
